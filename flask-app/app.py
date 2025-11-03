@@ -43,4 +43,4 @@ def metrics():
 
 if __name__ == '__main__':
     # Run on all interfaces so the app is reachable from other hosts if needed
-    app.run(host='0.0.0.0', port=80, debug=True)
+    app.run(host='0.0.0.0', port=5000, debug=True)
