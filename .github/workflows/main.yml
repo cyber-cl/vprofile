@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
      - name: Code Checkout
-       uses: actions/checkout@v4
+       uses: actions/checkout@v16
 
 
      -  name: Maven Build
@@ -22,7 +22,7 @@ jobs:
       uses: actions/checkout@v4
 
     - name: Run tests on main branches
-      run: mvn test
+      run: maven test
  
     - name: Checkstyle
       run: mvn checkstyle:checkstyle  
