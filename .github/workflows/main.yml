@@ -22,7 +22,7 @@ jobs:
       uses: actions/checkout@v4
 
     - name: Run tests on main branches
-      run: maven test
+      run: mvn test
  
     - name: Checkstyle
       run: mvn checkstyle:checkstyle  
